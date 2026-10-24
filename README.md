@@ -2,6 +2,8 @@
 
 Two university projects from the **Advanced CPU Architecture and Hardware Accelerators** laboratory at Ben-Gurion University, developed for Intel Cyclone V and the DE10-Standard board.
 
+**Project partners:** [Shlomi Karelitz](https://github.com/shlomikarelitz) and [Adiel Mamedov (עדיאל ממדוב)](https://github.com/AdielMamedov).
+
 | Project | Architecture | Main features |
 | --- | --- | --- |
 | [Final-project MCU](mcu/) | RV32I-based single-cycle core with a multicycle divider | Harvard instruction/data memories, memory-mapped GPIO, interrupts, timer, capture/PWM and hardware arithmetic |
