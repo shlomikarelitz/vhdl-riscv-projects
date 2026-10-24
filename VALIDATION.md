@@ -8,8 +8,8 @@ Date: **2026-10-24**. Platform: Windows, PowerShell.
 
 | Project | RTL files | Testbench files | Result |
 | --- | ---: | ---: | --- |
-| MCU | 31 | 5 | All compile; 0 errors, 0 compiler warnings |
-| Pipeline | 17 | 1 | All compile; 0 errors, 0 compiler warnings |
+| MCU | 31 | 5 | All compile; 0 errors, 3 compiler warnings |
+| Pipeline | 17 | 1 | All compile; 0 errors, 3 compiler warnings |
 
 Compilation uses the vendor's installed `altera_mf` library. The pipeline simulation configuration is generated in the build directory and its sources compile with the PLL bypass selected. Committed hardware source packages retain FPGA mode.
 
@@ -19,6 +19,7 @@ Both independent projects pass Analysis & Synthesis with zero errors. This exerc
 
 ## Warnings and limits
 
+- Questa emits three `vcom-1074` warnings per project for non-locally static `OTHERS` aggregate choices in the original execute stage. Compilation succeeds. These source constructs are retained to preserve the submitted RTL.
 - Quartus reports unused signals in the recovered design. The MCU also reports unused switch bits 8/9 and LED bits 8/9 tied low; its implemented GPIO datapath is eight bits wide.
 - Both projects declare 2,048-word memories. Recovered firmware initializes fewer words (MCU: 304 instruction / 1,024 data; pipeline RT5: 45 instruction / 1,024 data). Quartus issues critical warning 127005 and explicitly zero-fills the rest. Images are preserved rather than silently regenerated.
 - The pipeline's debug ports are assigned virtual pins for synthesis. That project is not a board pinout.

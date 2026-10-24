@@ -38,7 +38,7 @@ The scripts locate files relative to their own project directory. Run them from 
 
 ## What was verified
 
-Both projects' RTL and testbenches compile in Questa `vcom` with **zero errors and zero warnings**. Both Quartus Analysis & Synthesis builds complete with **zero errors**. See [VALIDATION.md](VALIDATION.md) for tool versions, warnings and limits.
+Both projects' RTL and testbenches compile in Questa `vcom` with **zero errors**, with three compiler warnings per project in the original execute-stage aggregates. Both Quartus Analysis & Synthesis builds complete with **zero errors**. See [VALIDATION.md](VALIDATION.md) for tool versions, warnings and limits.
 
 Simulation execution could not be repeated during recovery because this machine's Questa simulator license was unavailable. A successful compilation is not a claim of functional correctness, timing closure or a new physical-board test.
 
