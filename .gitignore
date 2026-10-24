@@ -1,0 +1,20 @@
+# Local EDA build products and caches
+**/build/
+**/db/
+**/incremental_db/
+**/output_files/
+**/greybox_tmp/
+**/work/
+**/modelsim.ini
+**/transcript
+*.wlf
+*.vcd
+*.qws
+*.bak
+*.log
+*.rpt
+*.smsg
+*.jdi
+*.summary
+*.qdf
+*.qpf.bak

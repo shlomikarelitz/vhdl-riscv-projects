@@ -1,0 +1,2 @@
+# Preserve recovered source and firmware bytes, including original line endings.
+* -text

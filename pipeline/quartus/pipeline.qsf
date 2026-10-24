@@ -1,0 +1,47 @@
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY RV32IM_CORE_pipeline
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY ../build/quartus/output_files
+set_global_assignment -name SDC_FILE pipeline.sdc
+set_global_assignment -name VHDL_FILE ../rtl/cond_compilation_package.vhd
+set_global_assignment -name VHDL_FILE ../rtl/const_package.vhd
+set_global_assignment -name VHDL_FILE ../rtl/aux_package.vhd
+set_global_assignment -name VHDL_FILE ../rtl/PLL.vhd
+set_global_assignment -name VHDL_FILE ../rtl/CONTROL.VHD
+set_global_assignment -name VHDL_FILE ../rtl/FORWARDING_UNIT.vhd
+set_global_assignment -name VHDL_FILE ../rtl/STALL_UNIT.vhd
+set_global_assignment -name VHDL_FILE ../rtl/IFETCH_pipeline.vhd
+set_global_assignment -name VHDL_FILE ../rtl/IF_ID_REG.vhd
+set_global_assignment -name VHDL_FILE ../rtl/IDECODE_pipeline.vhd
+set_global_assignment -name VHDL_FILE ../rtl/ID_EX_REG.vhd
+set_global_assignment -name VHDL_FILE ../rtl/EXECUTE_pipeline.vhd
+set_global_assignment -name VHDL_FILE ../rtl/EX_MEM_REG.vhd
+set_global_assignment -name VHDL_FILE ../rtl/DMEMORY_pipeline.vhd
+set_global_assignment -name VHDL_FILE ../rtl/MEM_STAGE_pipeline.vhd
+set_global_assignment -name VHDL_FILE ../rtl/MEM_WB_REG.vhd
+set_global_assignment -name VHDL_FILE ../rtl/RV32IM_CORE_pipeline.vhd
+set_parameter -name ITCM_INIT_FILE ../programs/rt5/ITCM.hex
+set_parameter -name DTCM_INIT_FILE ../programs/rt5/DTCM.hex
+# Debug buses are virtual: this is a synthesis target, not a board pinout.
+set_instance_assignment -name VIRTUAL_PIN ON -to clk_i
+set_instance_assignment -name VIRTUAL_PIN ON -to rst_i
+set_instance_assignment -name VIRTUAL_PIN ON -to BPADDR_i[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to CLKCNT_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to IFpc_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to IFinstruction_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to IDpc_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to IDinstruction_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to EXpc_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to EXinstruction_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to MEMpc_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to MEMinstruction_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to WBpc_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to WBinstruction_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to dtcm_addr_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to dtcm_data_wr_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to MemWrite_ctrl_o
+set_instance_assignment -name VIRTUAL_PIN ON -to STRIGGER_o
+set_instance_assignment -name VIRTUAL_PIN ON -to FHCNT_o[*]
+set_instance_assignment -name VIRTUAL_PIN ON -to STCNT_o[*]
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 4

@@ -1,0 +1,125 @@
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY RV32IM_MCU
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY ../build/quartus/output_files
+set_global_assignment -name SDC_FILE mcu.sdc
+set_global_assignment -name VHDL_FILE ../rtl/cond_compilation_package.vhd
+set_global_assignment -name VHDL_FILE ../rtl/const_package.vhd
+set_global_assignment -name VHDL_FILE ../rtl/aux_package.vhd
+set_global_assignment -name VHDL_FILE ../rtl/unsigned_divider.vhd
+set_global_assignment -name VHDL_FILE ../rtl/divider_engine_cdc.vhd
+set_global_assignment -name VHDL_FILE ../rtl/divider_controller.vhd
+set_global_assignment -name VHDL_FILE ../rtl/divider_instruction_latch.vhd
+set_global_assignment -name VHDL_FILE ../rtl/mclk_counter.vhd
+set_global_assignment -name VHDL_FILE ../rtl/PLL.vhd
+set_global_assignment -name VHDL_FILE ../rtl/MULTIPLIER.VHD
+set_global_assignment -name VHDL_FILE ../rtl/IFETCH.VHD
+set_global_assignment -name VHDL_FILE ../rtl/IDECODE.VHD
+set_global_assignment -name VHDL_FILE ../rtl/CONTROL.VHD
+set_global_assignment -name VHDL_FILE ../rtl/EXECUTE.VHD
+set_global_assignment -name VHDL_FILE ../rtl/DMEMORY.VHD
+set_global_assignment -name VHDL_FILE ../rtl/clock_reset_manager.vhd
+set_global_assignment -name VHDL_FILE ../rtl/data_address_router.vhd
+set_global_assignment -name VHDL_FILE ../rtl/load_store_unit.vhd
+set_global_assignment -name VHDL_FILE ../rtl/interrupt_entry_controller.vhd
+set_global_assignment -name VHDL_FILE ../rtl/RV32I_CORE.vhd
+set_global_assignment -name VHDL_FILE ../rtl/mmio_address_decoder.vhd
+set_global_assignment -name VHDL_FILE ../rtl/gpio_ledr.vhd
+set_global_assignment -name VHDL_FILE ../rtl/seven_segment_decoder.vhd
+set_global_assignment -name VHDL_FILE ../rtl/hex_display_regs.vhd
+set_global_assignment -name VHDL_FILE ../rtl/gpio_switches.vhd
+set_global_assignment -name VHDL_FILE ../rtl/input_synchronizer.vhd
+set_global_assignment -name VHDL_FILE ../rtl/button_edge_detector.vhd
+set_global_assignment -name VHDL_FILE ../rtl/gpio_pushbuttons.vhd
+set_global_assignment -name VHDL_FILE ../rtl/interrupt_controller.vhd
+set_global_assignment -name VHDL_FILE ../rtl/basic_timer.vhd
+set_global_assignment -name VHDL_FILE ../rtl/RV32IM_MCU.vhd
+set_parameter -name ITCM_INIT_FILE ../programs/interrupt_demo/ITCM.hex
+set_parameter -name DTCM_INIT_FILE ../programs/interrupt_demo/DTCM.hex
+set_location_assignment PIN_AF14 -to clk_i
+set_location_assignment PIN_AJ4 -to rst_n_i
+set_location_assignment PIN_AK4 -to KEY_n_i[1]
+set_location_assignment PIN_AA14 -to KEY_n_i[2]
+set_location_assignment PIN_AA15 -to KEY_n_i[3]
+set_location_assignment PIN_AB30 -to SW_i[0]
+set_location_assignment PIN_Y27 -to SW_i[1]
+set_location_assignment PIN_AB28 -to SW_i[2]
+set_location_assignment PIN_AC30 -to SW_i[3]
+set_location_assignment PIN_W25 -to SW_i[4]
+set_location_assignment PIN_V25 -to SW_i[5]
+set_location_assignment PIN_AC28 -to SW_i[6]
+set_location_assignment PIN_AD30 -to SW_i[7]
+set_location_assignment PIN_AC29 -to SW_i[8]
+set_location_assignment PIN_AA30 -to SW_i[9]
+set_location_assignment PIN_AA24 -to LEDR_o[0]
+set_location_assignment PIN_AB23 -to LEDR_o[1]
+set_location_assignment PIN_AC23 -to LEDR_o[2]
+set_location_assignment PIN_AD24 -to LEDR_o[3]
+set_location_assignment PIN_AG25 -to LEDR_o[4]
+set_location_assignment PIN_AF25 -to LEDR_o[5]
+set_location_assignment PIN_AE24 -to LEDR_o[6]
+set_location_assignment PIN_AF24 -to LEDR_o[7]
+set_location_assignment PIN_AB22 -to LEDR_o[8]
+set_location_assignment PIN_AC22 -to LEDR_o[9]
+set_location_assignment PIN_W17 -to HEX0_o[0]
+set_location_assignment PIN_V18 -to HEX0_o[1]
+set_location_assignment PIN_AG17 -to HEX0_o[2]
+set_location_assignment PIN_AG16 -to HEX0_o[3]
+set_location_assignment PIN_AH17 -to HEX0_o[4]
+set_location_assignment PIN_AG18 -to HEX0_o[5]
+set_location_assignment PIN_AH18 -to HEX0_o[6]
+set_location_assignment PIN_AF16 -to HEX1_o[0]
+set_location_assignment PIN_V16 -to HEX1_o[1]
+set_location_assignment PIN_AE16 -to HEX1_o[2]
+set_location_assignment PIN_AD17 -to HEX1_o[3]
+set_location_assignment PIN_AE18 -to HEX1_o[4]
+set_location_assignment PIN_AE17 -to HEX1_o[5]
+set_location_assignment PIN_V17 -to HEX1_o[6]
+set_location_assignment PIN_AA21 -to HEX2_o[0]
+set_location_assignment PIN_AB17 -to HEX2_o[1]
+set_location_assignment PIN_AA18 -to HEX2_o[2]
+set_location_assignment PIN_Y17 -to HEX2_o[3]
+set_location_assignment PIN_Y18 -to HEX2_o[4]
+set_location_assignment PIN_AF18 -to HEX2_o[5]
+set_location_assignment PIN_W16 -to HEX2_o[6]
+set_location_assignment PIN_Y19 -to HEX3_o[0]
+set_location_assignment PIN_W19 -to HEX3_o[1]
+set_location_assignment PIN_AD19 -to HEX3_o[2]
+set_location_assignment PIN_AA20 -to HEX3_o[3]
+set_location_assignment PIN_AC20 -to HEX3_o[4]
+set_location_assignment PIN_AA19 -to HEX3_o[5]
+set_location_assignment PIN_AD20 -to HEX3_o[6]
+set_location_assignment PIN_AD21 -to HEX4_o[0]
+set_location_assignment PIN_AG22 -to HEX4_o[1]
+set_location_assignment PIN_AE22 -to HEX4_o[2]
+set_location_assignment PIN_AE23 -to HEX4_o[3]
+set_location_assignment PIN_AG23 -to HEX4_o[4]
+set_location_assignment PIN_AF23 -to HEX4_o[5]
+set_location_assignment PIN_AH22 -to HEX4_o[6]
+set_location_assignment PIN_AF21 -to HEX5_o[0]
+set_location_assignment PIN_AG21 -to HEX5_o[1]
+set_location_assignment PIN_AF20 -to HEX5_o[2]
+set_location_assignment PIN_AG20 -to HEX5_o[3]
+set_location_assignment PIN_AE19 -to HEX5_o[4]
+set_location_assignment PIN_AF19 -to HEX5_o[5]
+set_location_assignment PIN_AB21 -to HEX5_o[6]
+set_location_assignment PIN_W15 -to CAPIN1_i
+set_location_assignment PIN_AK2 -to CAPIN2_i
+set_location_assignment PIN_AH5 -to PWMout_o
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rst_n_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY_n_i[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW_i[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR_o[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0_o[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1_o[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2_o[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3_o[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4_o[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5_o[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CAPIN1_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CAPIN2_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PWMout_o
+set_parameter -name MODELSIM 0
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 4

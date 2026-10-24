@@ -1,0 +1,17 @@
+cond_compilation_package.vhd
+const_package.vhd
+aux_package.vhd
+PLL.vhd
+CONTROL.VHD
+FORWARDING_UNIT.vhd
+STALL_UNIT.vhd
+IFETCH_pipeline.vhd
+IF_ID_REG.vhd
+IDECODE_pipeline.vhd
+ID_EX_REG.vhd
+EXECUTE_pipeline.vhd
+EX_MEM_REG.vhd
+DMEMORY_pipeline.vhd
+MEM_STAGE_pipeline.vhd
+MEM_WB_REG.vhd
+RV32IM_CORE_pipeline.vhd

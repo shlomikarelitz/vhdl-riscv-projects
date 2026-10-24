@@ -1,0 +1,457 @@
+[
+  {
+    "path": "mcu/rtl/aux_package.vhd",
+    "origin": "submitted source",
+    "original_sha256": "a2c4aac90388ccd0f1dfe49352a57642e300eaa82a50091f7aeff5f297cf047a",
+    "published_sha256": "a2c4aac90388ccd0f1dfe49352a57642e300eaa82a50091f7aeff5f297cf047a",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/basic_timer.vhd",
+    "origin": "submitted source",
+    "original_sha256": "b1b32b4f806c61ce7bf4f1411d168c23d40bf4d970392fd21b0da52fc0d932e0",
+    "published_sha256": "b1b32b4f806c61ce7bf4f1411d168c23d40bf4d970392fd21b0da52fc0d932e0",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/button_edge_detector.vhd",
+    "origin": "submitted source",
+    "original_sha256": "d79420c1db03023f6fb907514fb1efc966fc312a356dfe138c18b890c331a8c7",
+    "published_sha256": "d79420c1db03023f6fb907514fb1efc966fc312a356dfe138c18b890c331a8c7",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/clock_reset_manager.vhd",
+    "origin": "submitted source",
+    "original_sha256": "125f690e5f964d80f12a6497a289350f5c149d933e70de0fbe1cb3c115c4ce20",
+    "published_sha256": "125f690e5f964d80f12a6497a289350f5c149d933e70de0fbe1cb3c115c4ce20",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/cond_compilation_package.vhd",
+    "origin": "submitted source",
+    "original_sha256": "7f098a681e76bda9d34633ff9f7cca235ee4f0f030edfd5bd4a570c9d7721768",
+    "published_sha256": "7f098a681e76bda9d34633ff9f7cca235ee4f0f030edfd5bd4a570c9d7721768",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/const_package.vhd",
+    "origin": "submitted source",
+    "original_sha256": "b95132e647dc6e14910e2f34f59574db4542d787508005b3164035c17735201c",
+    "published_sha256": "b95132e647dc6e14910e2f34f59574db4542d787508005b3164035c17735201c",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/CONTROL.VHD",
+    "origin": "submitted source",
+    "original_sha256": "5a48ede18412063f8f3400d76bede1ce22facd705932982e1c1a91be180cb196",
+    "published_sha256": "5a48ede18412063f8f3400d76bede1ce22facd705932982e1c1a91be180cb196",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/data_address_router.vhd",
+    "origin": "submitted source",
+    "original_sha256": "4b92162b98bd1f1e82bc9204c38767e3bd14ef9545ed15ebcf9eb7c291a12a4a",
+    "published_sha256": "4b92162b98bd1f1e82bc9204c38767e3bd14ef9545ed15ebcf9eb7c291a12a4a",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/divider_controller.vhd",
+    "origin": "submitted source",
+    "original_sha256": "e3dc29c5b1570cb084aa509020d78c699398773f8c78c440415e911075b6b5f0",
+    "published_sha256": "e3dc29c5b1570cb084aa509020d78c699398773f8c78c440415e911075b6b5f0",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/divider_engine_cdc.vhd",
+    "origin": "submitted source",
+    "original_sha256": "7630793fdefb288f7ea6bf136ca11578d6ef6220bbded6187a680e2486f1b625",
+    "published_sha256": "7630793fdefb288f7ea6bf136ca11578d6ef6220bbded6187a680e2486f1b625",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/divider_instruction_latch.vhd",
+    "origin": "submitted source",
+    "original_sha256": "10a751d46b9e0d56d7a2fcc009f71f3b7760f6b2903d10b93ecf105cce2e360d",
+    "published_sha256": "10a751d46b9e0d56d7a2fcc009f71f3b7760f6b2903d10b93ecf105cce2e360d",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/DMEMORY.VHD",
+    "origin": "submitted source",
+    "original_sha256": "42028b172d145d9b46d8f7e0ec81069fdcc5a752f1ae3581652d804b3d5620d9",
+    "published_sha256": "42028b172d145d9b46d8f7e0ec81069fdcc5a752f1ae3581652d804b3d5620d9",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/EXECUTE.VHD",
+    "origin": "submitted source",
+    "original_sha256": "0135b13e2385b24668615b2ec4ed22084ec70d7940aa40abdea1d20f152c0cbf",
+    "published_sha256": "0135b13e2385b24668615b2ec4ed22084ec70d7940aa40abdea1d20f152c0cbf",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/gpio_ledr.vhd",
+    "origin": "submitted source",
+    "original_sha256": "51cec8e1c66c9d772761cf480e73f4234030cb2b098748c586248e9026984e96",
+    "published_sha256": "51cec8e1c66c9d772761cf480e73f4234030cb2b098748c586248e9026984e96",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/gpio_pushbuttons.vhd",
+    "origin": "submitted source",
+    "original_sha256": "f6a9927b31d815c7a040c4260662ee300ffbfe303b4397c937dc331ecab7f1e8",
+    "published_sha256": "f6a9927b31d815c7a040c4260662ee300ffbfe303b4397c937dc331ecab7f1e8",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/gpio_switches.vhd",
+    "origin": "submitted source",
+    "original_sha256": "c80c871bbb9500ec8715cf848445460cf55a6ade150df5293f382f05dd17e6eb",
+    "published_sha256": "c80c871bbb9500ec8715cf848445460cf55a6ade150df5293f382f05dd17e6eb",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/hex_display_regs.vhd",
+    "origin": "submitted source",
+    "original_sha256": "735a82d05226b9e2118a443be56af85c2a1738b30183aaca2007f729a10e63ea",
+    "published_sha256": "735a82d05226b9e2118a443be56af85c2a1738b30183aaca2007f729a10e63ea",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/IDECODE.VHD",
+    "origin": "submitted source",
+    "original_sha256": "d44da83379e65a133a60c60154ab520a566f51ae2901d76f28bb25e4324ce8b6",
+    "published_sha256": "d44da83379e65a133a60c60154ab520a566f51ae2901d76f28bb25e4324ce8b6",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/IFETCH.VHD",
+    "origin": "submitted source",
+    "original_sha256": "5fec9f134a3d498a21c9a73d12d0c6f42ce15636d8bd5d52b723505f2b35c827",
+    "published_sha256": "5fec9f134a3d498a21c9a73d12d0c6f42ce15636d8bd5d52b723505f2b35c827",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/input_synchronizer.vhd",
+    "origin": "submitted source",
+    "original_sha256": "b87df849e03bc13c2269f28283e771afcf5b5a2ea972f933787230089a214aa6",
+    "published_sha256": "b87df849e03bc13c2269f28283e771afcf5b5a2ea972f933787230089a214aa6",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/interrupt_controller.vhd",
+    "origin": "submitted source",
+    "original_sha256": "f49d14039c4e66efbc0cfdefd6a577579c147b1460bd7a8f263091661c7ece6f",
+    "published_sha256": "f49d14039c4e66efbc0cfdefd6a577579c147b1460bd7a8f263091661c7ece6f",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/interrupt_entry_controller.vhd",
+    "origin": "submitted source",
+    "original_sha256": "eba68a884084f367eec960ef6902db1def2ba00c0b845d7efea02b51a8d6bacf",
+    "published_sha256": "eba68a884084f367eec960ef6902db1def2ba00c0b845d7efea02b51a8d6bacf",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/load_store_unit.vhd",
+    "origin": "submitted source",
+    "original_sha256": "285ac5b15a1072f8d01150655a64dd7afd5452eee966b8d29e18c33f39b0793c",
+    "published_sha256": "285ac5b15a1072f8d01150655a64dd7afd5452eee966b8d29e18c33f39b0793c",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/mclk_counter.vhd",
+    "origin": "submitted source",
+    "original_sha256": "579bd626df0709066cdc7ff4e5984dbca2c8cb65da844e00faf4fe1e0c5a35de",
+    "published_sha256": "579bd626df0709066cdc7ff4e5984dbca2c8cb65da844e00faf4fe1e0c5a35de",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/mmio_address_decoder.vhd",
+    "origin": "submitted source",
+    "original_sha256": "245d59d2b3ae514c67846163d67a63042b9b0d1ba90a06802c8bbf216786c3ea",
+    "published_sha256": "245d59d2b3ae514c67846163d67a63042b9b0d1ba90a06802c8bbf216786c3ea",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/MULTIPLIER.VHD",
+    "origin": "submitted source",
+    "original_sha256": "c02c83426a2628306c3273b15d88590f35bdf8be3378158ef40e89f8c54bf65e",
+    "published_sha256": "c02c83426a2628306c3273b15d88590f35bdf8be3378158ef40e89f8c54bf65e",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/PLL.vhd",
+    "origin": "submitted source",
+    "original_sha256": "170c369acc9d531f050497d7d2dc2bea59d969b81fe9bea1871da112b2c0b6bd",
+    "published_sha256": "170c369acc9d531f050497d7d2dc2bea59d969b81fe9bea1871da112b2c0b6bd",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/RV32IM_MCU.vhd",
+    "origin": "submitted source",
+    "original_sha256": "d7087b9c31f4b589665596b7649fd1a36fed3833da274841103fe7c22d5beb7d",
+    "published_sha256": "d7087b9c31f4b589665596b7649fd1a36fed3833da274841103fe7c22d5beb7d",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/RV32I_CORE.vhd",
+    "origin": "submitted source",
+    "original_sha256": "ccc820316d0692be1544a45c0ccb958df9ba7c9fbd0c42d51ea22f39a95d4c2a",
+    "published_sha256": "ccc820316d0692be1544a45c0ccb958df9ba7c9fbd0c42d51ea22f39a95d4c2a",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/seven_segment_decoder.vhd",
+    "origin": "submitted source",
+    "original_sha256": "7a1eb74bc885639261852eb84db805c35d66e6dfe54233937faca0aa7eb098a1",
+    "published_sha256": "7a1eb74bc885639261852eb84db805c35d66e6dfe54233937faca0aa7eb098a1",
+    "adapted": false
+  },
+  {
+    "path": "mcu/rtl/unsigned_divider.vhd",
+    "origin": "submitted source",
+    "original_sha256": "60dfb0d937ba7d4436bb921b065ae75768679a8a43708e84cdf903204e0b486d",
+    "published_sha256": "60dfb0d937ba7d4436bb921b065ae75768679a8a43708e84cdf903204e0b486d",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/aux_package.vhd",
+    "origin": "submitted source",
+    "original_sha256": "23066dba95970876a958422ae28514ba51aeb360755a14e284d3a7735ef30e3f",
+    "published_sha256": "23066dba95970876a958422ae28514ba51aeb360755a14e284d3a7735ef30e3f",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/cond_compilation_package.vhd",
+    "origin": "submitted source",
+    "original_sha256": "4126b1b9f22f2d6b0745664e210c881ed24e0002dc94a9cd6385789b60526ab4",
+    "published_sha256": "4126b1b9f22f2d6b0745664e210c881ed24e0002dc94a9cd6385789b60526ab4",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/const_package.vhd",
+    "origin": "submitted source",
+    "original_sha256": "6d1af93f9e67367f7d7cadc3caa9bfb5366eeeee0fc2ddb813e54070e22a0958",
+    "published_sha256": "6d1af93f9e67367f7d7cadc3caa9bfb5366eeeee0fc2ddb813e54070e22a0958",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/CONTROL.VHD",
+    "origin": "submitted source",
+    "original_sha256": "fee7ee9c2d2ff74993ac2487c33d6ad3e9ab512d1694be159f390d80f61ad340",
+    "published_sha256": "fee7ee9c2d2ff74993ac2487c33d6ad3e9ab512d1694be159f390d80f61ad340",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/DMEMORY_pipeline.vhd",
+    "origin": "submitted source",
+    "original_sha256": "b80c5edc49115133a6d7225feeb82f7be06c5f44ae81242dd98518c3a67de041",
+    "published_sha256": "25892e7f12b871244bc03862c62e8d3fded79b6e35bb56e9ffe4a746e4d0c2b3",
+    "adapted": true
+  },
+  {
+    "path": "pipeline/rtl/EXECUTE_pipeline.vhd",
+    "origin": "submitted source",
+    "original_sha256": "de14f91f4fd0bbc30ae3e3af6fba9c507794954e6f6f9dc4c01092b41f2d2786",
+    "published_sha256": "de14f91f4fd0bbc30ae3e3af6fba9c507794954e6f6f9dc4c01092b41f2d2786",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/EX_MEM_REG.vhd",
+    "origin": "submitted source",
+    "original_sha256": "d09ef5b8edf6e5fc322614f3e4bd591d74101d8335298715ea5489e8e4eefd63",
+    "published_sha256": "d09ef5b8edf6e5fc322614f3e4bd591d74101d8335298715ea5489e8e4eefd63",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/FORWARDING_UNIT.vhd",
+    "origin": "submitted source",
+    "original_sha256": "0c6ca27aa6cdcb4281d3e30fdfd1d38c8437dead5416190eee5fd9ed2f7579eb",
+    "published_sha256": "0c6ca27aa6cdcb4281d3e30fdfd1d38c8437dead5416190eee5fd9ed2f7579eb",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/IDECODE_pipeline.vhd",
+    "origin": "submitted source",
+    "original_sha256": "6fa1af1e34cf34f497dbfe183ea991e2638d7c88a214457efb6986024874e60e",
+    "published_sha256": "6fa1af1e34cf34f497dbfe183ea991e2638d7c88a214457efb6986024874e60e",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/ID_EX_REG.vhd",
+    "origin": "submitted source",
+    "original_sha256": "83a6268c43bc5c660961b8847a00d333b1913fd1b91ae082328578b6a37f21fe",
+    "published_sha256": "83a6268c43bc5c660961b8847a00d333b1913fd1b91ae082328578b6a37f21fe",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/IFETCH_pipeline.vhd",
+    "origin": "submitted source",
+    "original_sha256": "4c442b159dfdb118ca873bf71db3db4ec6a749fbc6d0f14f61006a4783dd20f4",
+    "published_sha256": "9dafc7c2d46159e65e7751f57a1032082643c49063227fdf9a558302b15e540d",
+    "adapted": true
+  },
+  {
+    "path": "pipeline/rtl/IF_ID_REG.vhd",
+    "origin": "submitted source",
+    "original_sha256": "3b3cbd96c0b259a1b8d60f8d1479e956f652c2c57e6a1734feb4900d96d5e4ed",
+    "published_sha256": "3b3cbd96c0b259a1b8d60f8d1479e956f652c2c57e6a1734feb4900d96d5e4ed",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/MEM_STAGE_pipeline.vhd",
+    "origin": "submitted source",
+    "original_sha256": "7c95c41b08a51e39db469dc87b4519cfb22090741c35e5e5906aa45feb41ca7c",
+    "published_sha256": "39e3e843377928f3164daa99162ac0eb26ee7700f87f754d1cc8aee70447484c",
+    "adapted": true
+  },
+  {
+    "path": "pipeline/rtl/MEM_WB_REG.vhd",
+    "origin": "submitted source",
+    "original_sha256": "ab9563435c47b6ddaddfa3a9d7c217f5a5896c19b44b26b8cf1025a5e9b03d63",
+    "published_sha256": "ab9563435c47b6ddaddfa3a9d7c217f5a5896c19b44b26b8cf1025a5e9b03d63",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/PLL.vhd",
+    "origin": "submitted source",
+    "original_sha256": "170c369acc9d531f050497d7d2dc2bea59d969b81fe9bea1871da112b2c0b6bd",
+    "published_sha256": "170c369acc9d531f050497d7d2dc2bea59d969b81fe9bea1871da112b2c0b6bd",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/rtl/RV32IM_CORE_pipeline.vhd",
+    "origin": "submitted source",
+    "original_sha256": "021c0b3cdd5ae9333cbfcbaf8e66b72ab5e7a5bb174872f6b68bbbe511b6a899",
+    "published_sha256": "15b34164ee1577ed06e6f9db0620fae3bcebce7ec45b75e2e4937851580d4c1d",
+    "adapted": true
+  },
+  {
+    "path": "pipeline/rtl/STALL_UNIT.vhd",
+    "origin": "submitted source",
+    "original_sha256": "694ba67049d38d8acf2b9d2dd5e02b177409d4c1af121d76f5d72205fa5f0946",
+    "published_sha256": "694ba67049d38d8acf2b9d2dd5e02b177409d4c1af121d76f5d72205fa5f0946",
+    "adapted": false
+  },
+  {
+    "path": "mcu/tb/tb_simple_mcu.vhd",
+    "origin": "submitted source",
+    "original_sha256": "a93a9b1bcee7af50a53b3a10d488d71a4dddb39219a56ab1ba306d1fd43ceb96",
+    "published_sha256": "caf8e203a7331e10f09cd54584169295128c6c6df11834c9f24822a03aaa32e0",
+    "adapted": true
+  },
+  {
+    "path": "pipeline/tb/tb_pipeline.vhd",
+    "origin": "submitted source",
+    "original_sha256": "c15c665bc458e287a1ab8140aad2d17da80fc6a6dc74a8c0500e7e660814f835",
+    "published_sha256": "c15c665bc458e287a1ab8140aad2d17da80fc6a6dc74a8c0500e7e660814f835",
+    "adapted": false
+  },
+  {
+    "path": "mcu/tb/tb_divider_targeted.vhd",
+    "origin": "existing final-project regression testbench",
+    "original_sha256": "fd5c6cfab0409ebdb215262b0521a3d1b0ee42f1f1bd6a0201cf10560642da6e",
+    "published_sha256": "fd5c6cfab0409ebdb215262b0521a3d1b0ee42f1f1bd6a0201cf10560642da6e",
+    "adapted": false
+  },
+  {
+    "path": "mcu/tb/tb_interrupt_controller.vhd",
+    "origin": "existing final-project regression testbench",
+    "original_sha256": "967f09bc296a53ce50d3b484f48e2606bdb29ae35b2c256d4153ca17b37a0462",
+    "published_sha256": "967f09bc296a53ce50d3b484f48e2606bdb29ae35b2c256d4153ca17b37a0462",
+    "adapted": false
+  },
+  {
+    "path": "mcu/tb/tb_basic_timer.vhd",
+    "origin": "existing final-project regression testbench",
+    "original_sha256": "b7969c25efe9304d66b9f6abfb65acc35d3e6d9445f6de68574ff99617d4d24e",
+    "published_sha256": "b7969c25efe9304d66b9f6abfb65acc35d3e6d9445f6de68574ff99617d4d24e",
+    "adapted": false
+  },
+  {
+    "path": "mcu/tb/tb_basic_timer_phase8b.vhd",
+    "origin": "existing final-project regression testbench",
+    "original_sha256": "d64623dd091f71d62c05f646ccc464d8584fb2d6475e5cb15328a6305fb13e52",
+    "published_sha256": "d64623dd091f71d62c05f646ccc464d8584fb2d6475e5cb15328a6305fb13e52",
+    "adapted": false
+  },
+  {
+    "path": "mcu/programs/interrupt_demo/ITCM.hex",
+    "origin": "course interrupt benchmark test4; also identical to final hardware root image",
+    "original_sha256": "60d7b8baf10f9c7de5d08b317cbb7b9f1a22eb877b3e0688170a013df4f90c28",
+    "published_sha256": "60d7b8baf10f9c7de5d08b317cbb7b9f1a22eb877b3e0688170a013df4f90c28",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/programs/rt5/ITCM.hex",
+    "origin": "Lab 5 RT5 benchmark memory image selected by submitted pipeline top-level",
+    "original_sha256": "8901cc12971e31f518011a1a0aec5927d7da543b196b21fe61dc6d98befae0a5",
+    "published_sha256": "8901cc12971e31f518011a1a0aec5927d7da543b196b21fe61dc6d98befae0a5",
+    "adapted": false
+  },
+  {
+    "path": "mcu/programs/interrupt_demo/DTCM.hex",
+    "origin": "course interrupt benchmark test4; also identical to final hardware root image",
+    "original_sha256": "1c08019f9e1e066dc1b9d1065ba8df6e1f5856a47dabb0654a0098da0a4ecb12",
+    "published_sha256": "1c08019f9e1e066dc1b9d1065ba8df6e1f5856a47dabb0654a0098da0a4ecb12",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/programs/rt5/DTCM.hex",
+    "origin": "Lab 5 RT5 benchmark memory image selected by submitted pipeline top-level",
+    "original_sha256": "882f0cdb0beae4bc20a2572a15dcf8abb2646d88dbfce7ea853322a7e2a66068",
+    "published_sha256": "882f0cdb0beae4bc20a2572a15dcf8abb2646d88dbfce7ea853322a7e2a66068",
+    "adapted": false
+  },
+  {
+    "path": "mcu/programs/interrupt_demo/00_main.s",
+    "origin": "course interrupt benchmark assembly",
+    "original_sha256": "98ce27d58db46ae0ada4b13290189119695974c29826665b6d09d5588a26e283",
+    "published_sha256": "98ce27d58db46ae0ada4b13290189119695974c29826665b6d09d5588a26e283",
+    "adapted": false
+  },
+  {
+    "path": "mcu/programs/interrupt_demo/01_func.s",
+    "origin": "course interrupt benchmark assembly",
+    "original_sha256": "91660c990749e48c8a5c2fd79efb301e3c300e849540ee569d1e97aa8b797adf",
+    "published_sha256": "91660c990749e48c8a5c2fd79efb301e3c300e849540ee569d1e97aa8b797adf",
+    "adapted": false
+  },
+  {
+    "path": "mcu/programs/interrupt_demo/io_map.s",
+    "origin": "course interrupt benchmark assembly",
+    "original_sha256": "57eb49b5eab85a13c5cc625f2e0326ea7286214729e224fdc20640bc686e17c2",
+    "published_sha256": "57eb49b5eab85a13c5cc625f2e0326ea7286214729e224fdc20640bc686e17c2",
+    "adapted": false
+  },
+  {
+    "path": "mcu/ORIGINAL_README.txt",
+    "origin": "submitted source",
+    "original_sha256": "98cd5bc2b2100c1ac97c078cd8e7ad2786cab2eb8821742c4df73f16ff4bb158",
+    "published_sha256": "98cd5bc2b2100c1ac97c078cd8e7ad2786cab2eb8821742c4df73f16ff4bb158",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/ORIGINAL_README.txt",
+    "origin": "submitted source",
+    "original_sha256": "3c9aa6aa07e1147394b4819a8292d71b8d0ecf313b71d697dde120dc31751215",
+    "published_sha256": "3c9aa6aa07e1147394b4819a8292d71b8d0ecf313b71d697dde120dc31751215",
+    "adapted": false
+  },
+  {
+    "path": "mcu/quartus/mcu.sdc",
+    "origin": "submitted source",
+    "original_sha256": "45053ca2156f273142d6b6fa3f189dc440e42fabd6919de8ad40217ee6d167f9",
+    "published_sha256": "45053ca2156f273142d6b6fa3f189dc440e42fabd6919de8ad40217ee6d167f9",
+    "adapted": false
+  },
+  {
+    "path": "pipeline/quartus/pipeline.sdc",
+    "origin": "submitted source",
+    "original_sha256": "59035cd14bfbf8fef933c6829b2debfcb79253bc1b60b7100cde7adc0a0857df",
+    "published_sha256": "59035cd14bfbf8fef933c6829b2debfcb79253bc1b60b7100cde7adc0a0857df",
+    "adapted": false
+  }
+]
